@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3051FB651682A64E00FC7201 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3051FB641682A64E00FC7201 /* UIKit.framework */; };
+		3051FB671682A64E00FC7201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3051FB661682A64E00FC7201 /* Foundation.framework */; };
+		3051FB691682A64E00FC7201 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3051FB681682A64E00FC7201 /* CoreGraphics.framework */; };
+		3051FB6F1682A64E00FC7201 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3051FB6D1682A64E00FC7201 /* InfoPlist.strings */; };
+		3051FB711682A64E00FC7201 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3051FB701682A64E00FC7201 /* main.m */; };
+		3051FB751682A64E00FC7201 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3051FB741682A64E00FC7201 /* AppDelegate.m */; };
+		3051FB771682A64E00FC7201 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3051FB761682A64E00FC7201 /* Default.png */; };
+		3051FB791682A64E00FC7201 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3051FB781682A64E00FC7201 /* Default@2x.png */; };
+		3051FB7B1682A64E00FC7201 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3051FB7A1682A64E00FC7201 /* Default-568h@2x.png */; };
+		3051FB7E1682A64E00FC7201 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3051FB7D1682A64E00FC7201 /* ViewController.m */; };
+		3051FB811682A64E00FC7201 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3051FB7F1682A64E00FC7201 /* ViewController.xib */; };
+		3051FB891682A64E00FC7201 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3051FB881682A64E00FC7201 /* SenTestingKit.framework */; };
+		3051FB8A1682A64E00FC7201 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3051FB641682A64E00FC7201 /* UIKit.framework */; };
+		3051FB8B1682A64E00FC7201 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3051FB661682A64E00FC7201 /* Foundation.framework */; };
+		3051FB931682A64E00FC7201 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3051FB911682A64E00FC7201 /* InfoPlist.strings */; };
+		3051FB961682A64E00FC7201 /* theater_tickets_dojoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3051FB951682A64E00FC7201 /* theater_tickets_dojoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3051FB8C1682A64E00FC7201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3051FB571682A64E00FC7201 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3051FB5F1682A64E00FC7201;
+			remoteInfo = theater_tickets_dojo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3051FB601682A64E00FC7201 /* theater_tickets_dojo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theater_tickets_dojo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3051FB641682A64E00FC7201 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3051FB661682A64E00FC7201 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3051FB681682A64E00FC7201 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3051FB6C1682A64E00FC7201 /* theater_tickets_dojo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "theater_tickets_dojo-Info.plist"; sourceTree = "<group>"; };
+		3051FB6E1682A64E00FC7201 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3051FB701682A64E00FC7201 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3051FB721682A64E00FC7201 /* theater_tickets_dojo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "theater_tickets_dojo-Prefix.pch"; sourceTree = "<group>"; };
+		3051FB731682A64E00FC7201 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3051FB741682A64E00FC7201 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3051FB761682A64E00FC7201 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3051FB781682A64E00FC7201 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3051FB7A1682A64E00FC7201 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3051FB7C1682A64E00FC7201 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3051FB7D1682A64E00FC7201 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3051FB801682A64E00FC7201 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3051FB871682A64E00FC7201 /* theater_tickets_dojoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = theater_tickets_dojoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3051FB881682A64E00FC7201 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3051FB901682A64E00FC7201 /* theater_tickets_dojoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "theater_tickets_dojoTests-Info.plist"; sourceTree = "<group>"; };
+		3051FB921682A64E00FC7201 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3051FB941682A64E00FC7201 /* theater_tickets_dojoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = theater_tickets_dojoTests.h; sourceTree = "<group>"; };
+		3051FB951682A64E00FC7201 /* theater_tickets_dojoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = theater_tickets_dojoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3051FB5D1682A64E00FC7201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3051FB651682A64E00FC7201 /* UIKit.framework in Frameworks */,
+				3051FB671682A64E00FC7201 /* Foundation.framework in Frameworks */,
+				3051FB691682A64E00FC7201 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3051FB831682A64E00FC7201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3051FB891682A64E00FC7201 /* SenTestingKit.framework in Frameworks */,
+				3051FB8A1682A64E00FC7201 /* UIKit.framework in Frameworks */,
+				3051FB8B1682A64E00FC7201 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3051FB551682A64E00FC7201 = {
+			isa = PBXGroup;
+			children = (
+				3051FB6A1682A64E00FC7201 /* theater_tickets_dojo */,
+				3051FB8E1682A64E00FC7201 /* theater_tickets_dojoTests */,
+				3051FB631682A64E00FC7201 /* Frameworks */,
+				3051FB611682A64E00FC7201 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3051FB611682A64E00FC7201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3051FB601682A64E00FC7201 /* theater_tickets_dojo.app */,
+				3051FB871682A64E00FC7201 /* theater_tickets_dojoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3051FB631682A64E00FC7201 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3051FB641682A64E00FC7201 /* UIKit.framework */,
+				3051FB661682A64E00FC7201 /* Foundation.framework */,
+				3051FB681682A64E00FC7201 /* CoreGraphics.framework */,
+				3051FB881682A64E00FC7201 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3051FB6A1682A64E00FC7201 /* theater_tickets_dojo */ = {
+			isa = PBXGroup;
+			children = (
+				3051FB731682A64E00FC7201 /* AppDelegate.h */,
+				3051FB741682A64E00FC7201 /* AppDelegate.m */,
+				3051FB7C1682A64E00FC7201 /* ViewController.h */,
+				3051FB7D1682A64E00FC7201 /* ViewController.m */,
+				3051FB7F1682A64E00FC7201 /* ViewController.xib */,
+				3051FB6B1682A64E00FC7201 /* Supporting Files */,
+			);
+			path = theater_tickets_dojo;
+			sourceTree = "<group>";
+		};
+		3051FB6B1682A64E00FC7201 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3051FB6C1682A64E00FC7201 /* theater_tickets_dojo-Info.plist */,
+				3051FB6D1682A64E00FC7201 /* InfoPlist.strings */,
+				3051FB701682A64E00FC7201 /* main.m */,
+				3051FB721682A64E00FC7201 /* theater_tickets_dojo-Prefix.pch */,
+				3051FB761682A64E00FC7201 /* Default.png */,
+				3051FB781682A64E00FC7201 /* Default@2x.png */,
+				3051FB7A1682A64E00FC7201 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3051FB8E1682A64E00FC7201 /* theater_tickets_dojoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3051FB941682A64E00FC7201 /* theater_tickets_dojoTests.h */,
+				3051FB951682A64E00FC7201 /* theater_tickets_dojoTests.m */,
+				3051FB8F1682A64E00FC7201 /* Supporting Files */,
+			);
+			path = theater_tickets_dojoTests;
+			sourceTree = "<group>";
+		};
+		3051FB8F1682A64E00FC7201 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3051FB901682A64E00FC7201 /* theater_tickets_dojoTests-Info.plist */,
+				3051FB911682A64E00FC7201 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3051FB5F1682A64E00FC7201 /* theater_tickets_dojo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3051FB991682A64E00FC7201 /* Build configuration list for PBXNativeTarget "theater_tickets_dojo" */;
+			buildPhases = (
+				3051FB5C1682A64E00FC7201 /* Sources */,
+				3051FB5D1682A64E00FC7201 /* Frameworks */,
+				3051FB5E1682A64E00FC7201 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = theater_tickets_dojo;
+			productName = theater_tickets_dojo;
+			productReference = 3051FB601682A64E00FC7201 /* theater_tickets_dojo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3051FB861682A64E00FC7201 /* theater_tickets_dojoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3051FB9C1682A64E00FC7201 /* Build configuration list for PBXNativeTarget "theater_tickets_dojoTests" */;
+			buildPhases = (
+				3051FB821682A64E00FC7201 /* Sources */,
+				3051FB831682A64E00FC7201 /* Frameworks */,
+				3051FB841682A64E00FC7201 /* Resources */,
+				3051FB851682A64E00FC7201 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3051FB8D1682A64E00FC7201 /* PBXTargetDependency */,
+			);
+			name = theater_tickets_dojoTests;
+			productName = theater_tickets_dojoTests;
+			productReference = 3051FB871682A64E00FC7201 /* theater_tickets_dojoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3051FB571682A64E00FC7201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Trevisan Tecnologia";
+			};
+			buildConfigurationList = 3051FB5A1682A64E00FC7201 /* Build configuration list for PBXProject "theater_tickets_dojo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3051FB551682A64E00FC7201;
+			productRefGroup = 3051FB611682A64E00FC7201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3051FB5F1682A64E00FC7201 /* theater_tickets_dojo */,
+				3051FB861682A64E00FC7201 /* theater_tickets_dojoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3051FB5E1682A64E00FC7201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3051FB6F1682A64E00FC7201 /* InfoPlist.strings in Resources */,
+				3051FB771682A64E00FC7201 /* Default.png in Resources */,
+				3051FB791682A64E00FC7201 /* Default@2x.png in Resources */,
+				3051FB7B1682A64E00FC7201 /* Default-568h@2x.png in Resources */,
+				3051FB811682A64E00FC7201 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3051FB841682A64E00FC7201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3051FB931682A64E00FC7201 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3051FB851682A64E00FC7201 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3051FB5C1682A64E00FC7201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3051FB711682A64E00FC7201 /* main.m in Sources */,
+				3051FB751682A64E00FC7201 /* AppDelegate.m in Sources */,
+				3051FB7E1682A64E00FC7201 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3051FB821682A64E00FC7201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3051FB961682A64E00FC7201 /* theater_tickets_dojoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3051FB8D1682A64E00FC7201 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3051FB5F1682A64E00FC7201 /* theater_tickets_dojo */;
+			targetProxy = 3051FB8C1682A64E00FC7201 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3051FB6D1682A64E00FC7201 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3051FB6E1682A64E00FC7201 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3051FB7F1682A64E00FC7201 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3051FB801682A64E00FC7201 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		3051FB911682A64E00FC7201 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3051FB921682A64E00FC7201 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3051FB971682A64E00FC7201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3051FB981682A64E00FC7201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3051FB9A1682A64E00FC7201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "theater_tickets_dojo/theater_tickets_dojo-Prefix.pch";
+				INFOPLIST_FILE = "theater_tickets_dojo/theater_tickets_dojo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3051FB9B1682A64E00FC7201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "theater_tickets_dojo/theater_tickets_dojo-Prefix.pch";
+				INFOPLIST_FILE = "theater_tickets_dojo/theater_tickets_dojo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3051FB9D1682A64E00FC7201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/theater_tickets_dojo.app/theater_tickets_dojo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "theater_tickets_dojo/theater_tickets_dojo-Prefix.pch";
+				INFOPLIST_FILE = "theater_tickets_dojoTests/theater_tickets_dojoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3051FB9E1682A64E00FC7201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/theater_tickets_dojo.app/theater_tickets_dojo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "theater_tickets_dojo/theater_tickets_dojo-Prefix.pch";
+				INFOPLIST_FILE = "theater_tickets_dojoTests/theater_tickets_dojoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3051FB5A1682A64E00FC7201 /* Build configuration list for PBXProject "theater_tickets_dojo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3051FB971682A64E00FC7201 /* Debug */,
+				3051FB981682A64E00FC7201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3051FB991682A64E00FC7201 /* Build configuration list for PBXNativeTarget "theater_tickets_dojo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3051FB9A1682A64E00FC7201 /* Debug */,
+				3051FB9B1682A64E00FC7201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3051FB9C1682A64E00FC7201 /* Build configuration list for PBXNativeTarget "theater_tickets_dojoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3051FB9D1682A64E00FC7201 /* Debug */,
+				3051FB9E1682A64E00FC7201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3051FB571682A64E00FC7201 /* Project object */;
+}
